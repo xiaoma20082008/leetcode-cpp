@@ -1,11 +1,11 @@
 # 
-# File: .gitignore
+# File: CMakeLists.txt
 # Project: leetcode-cpp
-# File Created: 2023-03-08
+# File Created: 2023-03-07
 # Author: xiaoma20082008 (mmccxx2519@gmail.com)
 # 
 # ------------------------------------------------------------------------
-# Last Modified At: 2023-03-08 19:57:00
+# Last Modified At: 2023-03-07 23:17:17
 # Last Modified By: xiaoma20082008 (mmccxx2519@gmail.com>)
 # ------------------------------------------------------------------------
 # 
@@ -24,47 +24,19 @@
 # limitations under the License.
 # 
 
-# Prerequisites
-*.d
+cmake_minimum_required(VERSION 3.0.0)
+project(leetcode-cpp VERSION 0.1.0)
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+set(CMAKE_C_STANDARD 17)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_EXTENSIONS OFF)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
-# Precompiled Headers
-*.gch
-*.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# VSCode
-.vscode
-
-# Fleet
-.fleet
-
-# IntelliJ IDEA
-.idea
-
-# Build
-**build**
+add_subdirectory(third_party)
+add_subdirectory(src)
+add_subdirectory(tests)
