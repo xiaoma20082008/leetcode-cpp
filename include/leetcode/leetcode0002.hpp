@@ -28,8 +28,6 @@
 
 namespace leetcode {
 
-using namespace std;
-
 class Solution0002 {
 public:
 public:
