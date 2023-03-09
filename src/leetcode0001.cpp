@@ -23,3 +23,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+#include "leetcode0001.hpp"
+
+namespace leetcode {
+
+vector<int> Solution0001::twoSum(vector<int> &nums, int target) { return {}; }
+
+} // namespace leetcode

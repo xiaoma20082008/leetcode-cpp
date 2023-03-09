@@ -24,7 +24,12 @@
 # limitations under the License.
 # 
 
-add_executable(leetcode-cpp main.cpp)
+add_library(leetcode SHARED
+    leetcode0001.cpp
+    leetcode0002.cpp
+    )
 
+add_executable(leetcoded main.cpp)
+target_link_libraries(leetcoded leetcode)
 
 message(STATUS "Configuring sources done")

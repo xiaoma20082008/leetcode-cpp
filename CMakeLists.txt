@@ -37,6 +37,9 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
+include_directories(include/leetcode)
+
 add_subdirectory(third_party)
 add_subdirectory(src)
 add_subdirectory(tests)
+

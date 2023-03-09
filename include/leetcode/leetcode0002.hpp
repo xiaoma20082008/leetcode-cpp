@@ -1,11 +1,11 @@
 /*
- * File: leetcode0002.cpp
- * Project: src
- * File Created: 2023-03-08
+ * File: leetcode0002.hpp
+ * Project: leetcode
+ * File Created: 2023-03-09
  * Author: xiaoma20082008 (mmccxx2519@gmail.com)
  *
  * ------------------------------------------------------------------------
- * Last Modified At: 2023-03-08 20:00:53
+ * Last Modified At: 2023-03-09 23:00:47
  * Last Modified By: xiaoma20082008 (mmccxx2519@gmail.com>)
  * ------------------------------------------------------------------------
  *
@@ -23,8 +23,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#include "leetcode0002.hpp"
+#pragma once
+#include "listnode.hpp"
 
 namespace leetcode {
-ListNode *Solution0002::addTwoNumbers(ListNode *l1, ListNode *l2) { return nullptr; }
+
+using namespace std;
+
+class Solution0002 {
+public:
+public:
+  ListNode *addTwoNumbers(ListNode *l1, ListNode *l2);
+};
+
 } // namespace leetcode

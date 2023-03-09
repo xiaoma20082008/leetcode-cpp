@@ -24,9 +24,21 @@
  * limitations under the License.
  */
 
+#include "leetcode0001.hpp"
+#include "leetcode0002.hpp"
+
 #include <iostream>
+using namespace leetcode;
+using namespace std;
 
 int main(int argc, char **argv) {
   std::cout << "hello wrold!\n";
+  Solution0001 s0001{};
+  std::vector<int> v{2, 7, 11, 15};
+  auto ret1 = s0001.twoSum(v, 9);
+
+  Solution0002 s0002{};
+  auto ret2 = s0002.addTwoNumbers(nullptr, nullptr);
+
   return 0;
 }
