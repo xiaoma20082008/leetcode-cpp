@@ -23,3 +23,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+#include "leetcode0001.hpp"
+#include <gtest/gtest.h>
+
+using namespace leetcode;
+
+TEST(Leetcode0001Test, twoSum) {
+  EXPECT_EQ(42, 7 * 6);
+  EXPECT_STRNE("hello", "world");
+  Solution0001 s0001{};
+  vector<int> v{1, 2, 3};
+  vector<int> ret = s0001.twoSum(v, 7);
+  vector<int> exp = {};
+  EXPECT_EQ(exp, ret);
+}

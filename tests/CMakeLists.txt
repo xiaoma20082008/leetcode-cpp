@@ -23,5 +23,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # 
+enable_testing()
+
+add_executable(
+    leetcode0001_test leetcode0001_test.cpp
+)
+target_link_libraries(
+    leetcode0001_test GTest::gtest_main leetcode
+)
 
 message(STATUS "Configuring tests done")

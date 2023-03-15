@@ -39,6 +39,5 @@ int main(int argc, char **argv) {
 
   Solution0002 s0002{};
   auto ret2 = s0002.addTwoNumbers(nullptr, nullptr);
-
   return 0;
 }
