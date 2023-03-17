@@ -20,11 +20,11 @@
 
 - [数组](docs/Array.md)
 - [链表](docs/LinkedList.md)
-- [树](docs/Tree.md)
-- [图](docs/Graph.md)
+- [队列](docs/Queue.md)
 - [堆](docs/Heap.md)
 - [栈](docs/Stack.md)
-- [队列](docs/Queue.md)
+- [树](docs/Tree.md)
+- [图](docs/Graph.md)
 
 ## 算法
 
