@@ -3,6 +3,9 @@
 <a href="https://github.com/xiaoma20082008/leetcode-cpp/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/github/license/xiaoma20082008/leetcode-cpp?style=for-the-badge&logo=starship&color=ee999f&logoColor=D9E0EE&labelColor=302D41" />
 </a>
+<a href="https://github.com/xiaoma20082008/leetcode-cpp/blob/main/README.md">
+    <img alt="C++17" src="https://img.shields.io/badge/C%2B%2B-17-blue.svg?style=for-the-badge&logo=starship&color=ee999f&logoColor=D9E0EE&labelColor=302D41" />
+</a>
 <a href="https://github.com/xiaoma20082008/leetcode-cpp/pulse">
     <img alt="Last commit" src="https://img.shields.io/github/last-commit/xiaoma20082008/leetcode-cpp?style=for-the-badge&logo=starship&color=8bd5ca&logoColor=D9E0EE&labelColor=302D41"/>
 </a>
